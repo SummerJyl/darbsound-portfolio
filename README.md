@@ -1,1 +1,43 @@
 # darbsound-portfolio
+
+A personal portfolio website showcasing my work, credits, and projects including upcoming podcast content. Built with a modular, component-based architecture to highlight my experience in sound design and related media.
+
+---
+
+## Project Structure
+
+- `/css/` — Stylesheets for the website  
+- `/images/` — Image assets including project thumbnails and icons  
+- `README.md` — This file  
+- `.gitattributes` — Git configuration for handling line endings and merges  
+
+---
+
+## Features
+
+- About page with bio and background  
+- Contact page for inquiries and collaboration  
+- Credits page listing projects, IMDB links, and media  
+- Podcast page (coming soon) with episodes and event info  
+- Responsive design for mobile and desktop  
+
+---
+
+## Tech Stack
+
+- HTML5, CSS3 for structure and styling  
+- JavaScript / React (planned for next iteration)  
+- Deployment planned via Cloudflare Pages with GitHub integration  
+
+---
+
+## Getting Started
+
+To run the project locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/SummerJyl/darbsound-portfolio.git
+   cd darbsound-portfolio
+
