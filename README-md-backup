@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # darbsound-portfolio
 
 A personal portfolio website showcasing my work, credits, and projects including upcoming podcast content. Built with a modular, component-based architecture to highlight my experience in sound design and related media.
@@ -41,3 +42,6 @@ To run the project locally:
    git clone https://github.com/SummerJyl/darbsound-portfolio.git
    cd darbsound-portfolio
 
+=======
+# darbsound-portfolio
+>>>>>>> 1e16c9eb5b0be726a4f7b5ead6b6bdc8e7d7d619
