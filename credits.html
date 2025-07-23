@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Credits</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">MySite</div>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="credits.html">Credits</a></li>
+      <li><a href="#" id="openModalBtn">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content -->
+  <main>
+    <!-- Your page-specific content here -->
+  </main>
+
+  <!-- Contact Modal -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" id="closeModalBtn">&times;</span>
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Message</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 YourSiteName. All rights reserved.
+  </footer>
+
+  <!-- Script to control modal -->
+  <script>
+    const openBtn = document.getElementById("openModalBtn");
+    const modal = document.getElementById("contactModal");
+    const closeBtn = document.getElementById("closeModalBtn");
+
+    openBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      modal.classList.add("show");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      modal.classList.remove("show");
+    });
+
+    window.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.classList.remove("show");
+      }
+    });
+  </script>
+</body>
+</html>
